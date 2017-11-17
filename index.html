@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hangman</title>
+		<!-- Styling links -->
+
+		<link rel="stylesheet" type="text/css" href="./assets/normalize.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./assets/style.css">
+		
+
+		<!-- linking Font -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
+		
+	</head>
+	<body onkeypress="game()">
+
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-auto">
+					
+				
+					<h1 class="typWrit" id="large"> Fifty Shades of Gray </h1>
+
+					<hr id="white">
+
+					<h6 class="typWrit" id="notSoLarge">Hangman Edition, yes were Spelling it Gray not Grey</h6>
+				</div>
+			</div>
+
+			<div class="row justify-content-md-center">
+<!--- This is the actual game area the left side being the color displayed and the riht being the instructions, letters and other things -->
+
+				<div id="colorBox"  class="col-md-5 box borderC">
+					
+				</div>
+
+
+<!-- This is the instructions and score yada yada-->
+
+				<div id="right" class="col-md-5 borderC box">
+					<h6 class="typWrit smole">Press any key to start</h2>
+
+					<hr id="white2">
+
+					<h6 class="typWrit smoler">Instruction</h6>
+
+					<p class="typWrit smolerest">Everytime you press a letter it will count as a guess. 
+						<br>
+						<br>
+						If your letter is incorrect you'll lose an attempt and gain a body part.
+					</p>
+
+					<hr id="white2">
+
+					<h6 class="typWrit smoler">Your Word Is</h6>
+
+					<p id="word" class="white"></p>
+
+					<br>
+					
+					<h6 class="typWrit smoler">Attempts Remaining</h6>
+						<p id="attempts" class="white"></p>
+
+
+					<div class="col-sm-4">
+					<h6 class="typWrit smoler ">Wins</h6>
+					
+						<p id="wins" class="white"></p>
+					</div>
+
+					<div class="col-sm-4">
+					<h6 class="typWrit smoler ">Losses</h6>
+					
+						<p id="losses" class="white"></p>
+					</div>
+
+
+
+					<h6 class="typWrit smoler">Letters Guessed</h6>
+
+						<p id="fails" class="white"></p>
+
+					
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Javascript starts here with a link to bootstrap -->
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+		<script src="./javascript/javascript.js">
+
+
+
+
+
+
+
+
+
+
+		</script>
+	</body>
+</html>

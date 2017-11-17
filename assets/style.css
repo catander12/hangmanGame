@@ -1,0 +1,86 @@
+/* universal stlying to avoid typing classes */
+
+body {
+	width:80%;
+	margin: auto;
+	background-color:black;
+	color:white;
+	text-align: center;
+
+}
+
+
+.white{
+	color:white;
+}
+
+/* title */
+.typWrit{
+	font-family: 'Source Code Pro', monospace;
+}
+
+#white{
+	background-color: white;
+}
+
+#white2{
+	border:none;
+  border-top:1px dotted white;
+  color:white;
+  
+  height:1px;
+  width:80%;
+}
+
+#large{
+	
+	margin-bottom:0px;
+	padding-bottom: 0px;
+}
+
+#notSoLarge{
+	color:lightgray;
+	font-size: 80%;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+/* The place where all the stuff goes like the colors n shit */
+
+.box{
+	height: 600px;
+}
+
+
+
+#colorBox:hover{
+	  background: url("img/fiftyShadesOfGrey.png") no-repeat;
+	  background-size: 100%;
+}
+
+.borderC{
+	border:2px white;
+
+	border-style:dotted;
+}
+
+
+
+
+.smole{
+	font-size: 20px;
+	margin-top:10px;
+}
+
+.smoler{
+	font-size: 16px;
+	margin-top:10px;
+}
+
+.smolerest{
+	font-size: 12px;
+	margin-top:10px;
+}
+
+
+
